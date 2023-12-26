@@ -1,0 +1,4 @@
+---
+# defaults file for single_role
+my_path:"/tmp/new"
+my_content:"some content"
