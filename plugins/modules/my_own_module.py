@@ -130,7 +130,7 @@ def run_module():
     result['content'] = open(module.params['path'], "r").read()
     
     module.exit_json(**result)
-
+    file.close()
 def main():
     run_module()
 
